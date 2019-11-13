@@ -1,83 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <!--Import materialize.css-->
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="css/materialize.min.css"
-      media="screen,projection"
-    />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="css/app.css"
-      media="screen,projection"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap"
-      rel="stylesheet"
-    />
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App: Timer Clock</title>
-  </head>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/app.css" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet" />
 
-  <body>
-    <div class="container" style="margin-top: 50px;">
-      <div class="row">
-        <div class="col s6 offset-s3" style="padding: 25px;">
-          <table class="striped">
-            <caption
-              style="font-size: 25px; margin-bottom: 10px; text-transform: uppercase;"
-            >
-              <i class="material-icons" style="display: block; font-size: 50px;"
-                >access_alarm</i
-              >
-              Timer Clock
-            </caption>
-            <tbody>
-              <tr style="background-color: white;">
-                <td colspan="3">
-                  <p
-                    style="text-align: center;
-                  word-spacing: 142px;
-                  font-size: 18px;"
-                  >
-                    h m s
-                  </p>
-                  <input type="text" value="06:00:00" />
-                </td>
-              </tr>
-              <tr
-                style="display: flex; flex-direction: row; justify-content: space-between;"
-              >
-                <td class="center">
-                  <a href="#" class="btn-floating btn-large btn pulse green"
-                    ><i class="material-icons">play_arrow</i></a
-                  >
-                </td>
-                <td class="center">
-                  <a href="#" class="btn-floating btn-large btn pulse red"
-                    ><i class="material-icons">stop</i></a
-                  >
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App: Timer Clock</title>
+</head>
+
+<body>
+  <div class="container" style="margin-top: 50px;">
+    <div class="row">
+      <div class="col s6 offset-s3" style="padding: 25px;">
+        <table class="striped">
+          <caption style="font-size: 25px; margin-bottom: 10px; text-transform: uppercase;">
+            <i class="material-icons" style="display: block; font-size: 50px;">access_alarm</i>
+            Timer Clock
+          </caption>
+          <tbody>
+            <tr style="background-color: white;">
+              <td>
+                <input type="text" value="06:00:00" />
+                <p style="text-align: center;
+                                    word-spacing: 142px;
+                                    font-size: 18px;">
+                  <u>H</u> <u>M</u> <u>S</u>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="center" style="display: flex; flex-direction: row; justify-content: space-around;">
+                <a href="#" class="btn-floating btn-large btn pulse green"><i class="material-icons">play_arrow</i></a>
+                <a href="#" class="btn-floating btn-large btn pulse red"><i class="material-icons">stop</i></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
+  </div>
 
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-  </body>
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
 </html>
